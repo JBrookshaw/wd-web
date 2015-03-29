@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/wd-web-dev',
+	db: 'mongodb://wazoo:password@ds037077.mongolab.com:37077/warrior-drone',
 	app: {
 		title: 'wd-web - Development Environment'
 	},
