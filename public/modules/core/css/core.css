@@ -14,4 +14,12 @@
 	border-color: #78FA89;
 }
 
+#forkme {
+	position:absolute;
+	top:0;
+	right:0;
+	width:100px;
+	height:100px;
+	z-index: 99999;
+}
 
