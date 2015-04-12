@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://wazoo:password@ds037077.mongolab.com:37077/warrior-drone',
 	app: {
-		title: 'wd-web - Development Environment'
+		title: 'wARriorDrone'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

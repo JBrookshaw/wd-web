@@ -23,3 +23,8 @@
 	z-index: 99999;
 }
 
+@media (max-width: 800px) {
+	#forkme {
+		display: none;
+	}
+}

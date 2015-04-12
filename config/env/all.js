@@ -2,7 +2,7 @@
 
 module.exports = {
 	app: {
-		title: 'wd-web',
+		title: 'wARriorDrone',
 		description: 'warrior drone website',
 		keywords: 'warrior,drone,website,winona'
 	},
