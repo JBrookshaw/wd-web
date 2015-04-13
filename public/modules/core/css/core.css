@@ -1,30 +1,54 @@
 .content {
-	margin-top: 50px;
+    margin-top: 50px;
 }
+
 .undecorated-link:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-	display: none !important;
+    display: none !important;
 }
+
 .ng-invalid.ng-dirty {
-	border-color: #FA787E;
+    border-color: #FA787E;
 }
+
 .ng-valid.ng-dirty {
-	border-color: #78FA89;
+    border-color: #78FA89;
 }
 
 #forkme {
-	position:absolute;
-	top:0;
-	right:0;
-	width:100px;
-	height:100px;
-	z-index: 99999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    z-index: 99999;
 }
 
 @media (max-width: 800px) {
-	#forkme {
-		display: none;
-	}
+    #forkme {
+        display: none;
+    }
+
+    .navbar-brand img {
+        height: 20px;
+        width: 190px;
+
+    }
+
+    iframe {
+        width: 80%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
 }
