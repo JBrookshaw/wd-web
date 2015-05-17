@@ -40,6 +40,9 @@ h5 {
     text-align: center;
 }
 
+.caption {
+    text-align: center;
+}
 @media (max-width: 800px) {
     #forkme {
         display: none;
@@ -52,8 +55,12 @@ h5 {
     }
 
     iframe {
-        width: 80%;
-        height: auto;
+        width: 80% !important;
+        height: auto !important;
+    }
+
+    p{
+        font-size:8px !important;
     }
 
     h2 {
