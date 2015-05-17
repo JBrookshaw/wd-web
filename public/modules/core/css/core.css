@@ -27,6 +27,19 @@
     z-index: 99999;
 }
 
+.drone-video {
+    width:840px;
+    height: 630px;
+}
+
+h1{
+    text-align:center;
+}
+
+h5 {
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     #forkme {
         display: none;
